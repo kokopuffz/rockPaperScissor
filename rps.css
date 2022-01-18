@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+
+h1, h2, h5, p {
+  font-family: 'Twinkle Star', sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: pink;
+  text-transform: lowercase;
+  text-decoration: underline;
+  font-size: 75px;
+}
+
+h2 {
+  color: grey;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: pink;
+  text-align: center;
+  font-family: serif;
+}
+
+h5{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  color: gray;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pink-text{
+  color: pink;
+}
+
+.buttons{
+  text-align: center;
+  display: inline-blocks;
+  padding: 0.35em 1.2em;
+  transition: all 0.2s;
+  font-weight: 300;
+}
+
+.buttons:hover {
+  color: #000000;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
